@@ -1,6 +1,6 @@
 "strict mode";
 
-const totalCost = document.querySelector("h2");
+const totalCost = document.querySelector("span");
 
 var dt = new Date();
 let fullDate =
