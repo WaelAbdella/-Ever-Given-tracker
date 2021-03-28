@@ -17,7 +17,5 @@ let fullDate =
 let myDate = new Date();
 
 const daysSince = myDate.getDate() - 23;
-const hoursSince = ((myDate.getHours() + 24 * daysSince) * 400) / 1000;
-
-console.log(hoursSince);
+let hoursSince = ((myDate.getHours() + 24 * daysSince) * 4) / 10;
 totalCost.textContent = `${hoursSince} billion dollars as of ${fullDate}`;
